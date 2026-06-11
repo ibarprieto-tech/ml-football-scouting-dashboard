@@ -70,8 +70,15 @@ st.markdown("""
 # SIDEBAR
 # ==========================================
 with st.sidebar:
-    st.header("🔍 Información del Proyecto")
-
+    st.header("🔍 Información del Proyecto PA3")
+    
+    st.markdown("**Integrantes Grupo 5:**")
+    st.info(
+        "Julio Gerardo Pantoja Claudio"
+        "Ibar Iván Prieto Desulovich"
+        "Héctor Eduardo Salvatierra Valle"
+        "Daniel Alonso Valerio Broncano"
+    
     st.markdown("**Pregunta de Investigación:**")
     st.info(
         "¿De qué manera el uso de algoritmos supervisados de machine learning "
